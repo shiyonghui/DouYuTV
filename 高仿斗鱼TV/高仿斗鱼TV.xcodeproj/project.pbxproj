@@ -413,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W9L4S6H6B9;
 				INFOPLIST_FILE = "高仿斗鱼TV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -427,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = W9L4S6H6B9;
 				INFOPLIST_FILE = "高仿斗鱼TV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -510,6 +512,7 @@
 				88D4223D1DF1878400BE0D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88D4223E1DF1878400BE0D0D /* Build configuration list for PBXNativeTarget "高仿斗鱼TVTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +521,7 @@
 				88D422401DF1878400BE0D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88D422411DF1878400BE0D0D /* Build configuration list for PBXNativeTarget "高仿斗鱼TVUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +530,7 @@
 				88D422431DF1878400BE0D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
