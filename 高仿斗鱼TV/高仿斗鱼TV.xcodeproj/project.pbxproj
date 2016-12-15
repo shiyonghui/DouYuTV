@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886D70991DFEC4FE006E3F8B /* PageTitleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886D70981DFEC4FE006E3F8B /* PageTitleVIew.swift */; };
+		886D709B1DFEC6A0006E3F8B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886D709A1DFEC6A0006E3F8B /* Common.swift */; };
+		886D709F1E001B45006E3F8B /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886D709E1E001B45006E3F8B /* PageContentView.swift */; };
+		886D70A11E001E0C006E3F8B /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886D70A01E001E0C006E3F8B /* UIColor-Extension.swift */; };
 		88D422171DF1878400BE0D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D422161DF1878400BE0D0D /* AppDelegate.swift */; };
 		88D4221C1DF1878400BE0D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D4221A1DF1878400BE0D0D /* Main.storyboard */; };
 		88D4221E1DF1878400BE0D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D4221D1DF1878400BE0D0D /* Assets.xcassets */; };
 		88D422211DF1878400BE0D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D4221F1DF1878400BE0D0D /* LaunchScreen.storyboard */; };
 		88D4222C1DF1878400BE0D0D /* ____TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4222B1DF1878400BE0D0D /* ____TVTests.swift */; };
 		88D422371DF1878400BE0D0D /* ____TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D422361DF1878400BE0D0D /* ____TVUITests.swift */; };
+		88D4224D1DF2D74300BE0D0D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D4224B1DF2D74300BE0D0D /* Home.storyboard */; };
+		88D4224F1DF2D76500BE0D0D /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D4224E1DF2D76500BE0D0D /* Live.storyboard */; };
+		88D422521DF2D78000BE0D0D /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D422501DF2D78000BE0D0D /* Follow.storyboard */; };
+		88D422541DF2D7A200BE0D0D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D422531DF2D7A200BE0D0D /* Profile.storyboard */; };
+		88D422561DF2D85F00BE0D0D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D422551DF2D85F00BE0D0D /* MainViewController.swift */; };
+		88D4225E1DF2DEB400BE0D0D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4225D1DF2DEB400BE0D0D /* HomeViewController.swift */; };
+		88D7A9E61DF43D9C003AD0A5 /* UIBarButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D7A9E51DF43D9C003AD0A5 /* UIBarButton-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		886D70981DFEC4FE006E3F8B /* PageTitleVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleVIew.swift; sourceTree = "<group>"; };
+		886D709A1DFEC6A0006E3F8B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		886D709E1E001B45006E3F8B /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		886D70A01E001E0C006E3F8B /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		88D422131DF1878400BE0D0D /* 高仿斗鱼TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿斗鱼TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D422161DF1878400BE0D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88D4221B1DF1878400BE0D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +60,13 @@
 		88D422321DF1878400BE0D0D /* 高仿斗鱼TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "高仿斗鱼TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D422361DF1878400BE0D0D /* ____TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____TVUITests.swift"; sourceTree = "<group>"; };
 		88D422381DF1878400BE0D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D4224C1DF2D74300BE0D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "高仿斗鱼TV/Base.lproj/Home.storyboard"; sourceTree = SOURCE_ROOT; };
+		88D4224E1DF2D76500BE0D0D /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../Main/Live.storyboard; sourceTree = "<group>"; };
+		88D422511DF2D78000BE0D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "高仿斗鱼TV/Base.lproj/Follow.storyboard"; sourceTree = SOURCE_ROOT; };
+		88D422531DF2D7A200BE0D0D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../Main/Profile.storyboard; sourceTree = "<group>"; };
+		88D422551DF2D85F00BE0D0D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		88D4225D1DF2DEB400BE0D0D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		88D7A9E51DF43D9C003AD0A5 /* UIBarButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButton-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +119,6 @@
 			children = (
 				88D422441DF1931900BE0D0D /* Classes */,
 				88D422161DF1878400BE0D0D /* AppDelegate.swift */,
-				88D4221A1DF1878400BE0D0D /* Main.storyboard */,
 				88D4221D1DF1878400BE0D0D /* Assets.xcassets */,
 				88D4221F1DF1878400BE0D0D /* LaunchScreen.storyboard */,
 				88D422221DF1878400BE0D0D /* Info.plist */,
@@ -139,6 +160,7 @@
 		88D422451DF1931900BE0D0D /* Follow  */ = {
 			isa = PBXGroup;
 			children = (
+				88D422501DF2D78000BE0D0D /* Follow.storyboard */,
 			);
 			path = "Follow ";
 			sourceTree = "<group>";
@@ -146,6 +168,9 @@
 		88D422461DF1931900BE0D0D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				88D422581DF2DE3400BE0D0D /* Model */,
+				88D422591DF2DE3400BE0D0D /* View */,
+				88D422571DF2DE3400BE0D0D /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +178,7 @@
 		88D422471DF1931900BE0D0D /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				88D4224E1DF2D76500BE0D0D /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +186,9 @@
 		88D422481DF1931900BE0D0D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				88D4225B1DF2DE4E00BE0D0D /* Model */,
+				88D4225C1DF2DE4E00BE0D0D /* View */,
+				88D4225A1DF2DE4E00BE0D0D /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +196,7 @@
 		88D422491DF1931900BE0D0D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				88D422531DF2D7A200BE0D0D /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -174,8 +204,67 @@
 		88D4224A1DF1931900BE0D0D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				88D7A9E41DF43D74003AD0A5 /* Extension */,
+				886D709A1DFEC6A0006E3F8B /* Common.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		88D422571DF2DE3400BE0D0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88D4224B1DF2D74300BE0D0D /* Home.storyboard */,
+				88D4225D1DF2DEB400BE0D0D /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88D422581DF2DE3400BE0D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88D422591DF2DE3400BE0D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88D4225A1DF2DE4E00BE0D0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88D4221A1DF1878400BE0D0D /* Main.storyboard */,
+				88D422551DF2D85F00BE0D0D /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88D4225B1DF2DE4E00BE0D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88D4225C1DF2DE4E00BE0D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				886D70981DFEC4FE006E3F8B /* PageTitleVIew.swift */,
+				886D709E1E001B45006E3F8B /* PageContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88D7A9E41DF43D74003AD0A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88D7A9E51DF43D9C003AD0A5 /* UIBarButton-Extension.swift */,
+				886D70A01E001E0C006E3F8B /* UIColor-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +378,10 @@
 				88D422211DF1878400BE0D0D /* LaunchScreen.storyboard in Resources */,
 				88D4221E1DF1878400BE0D0D /* Assets.xcassets in Resources */,
 				88D4221C1DF1878400BE0D0D /* Main.storyboard in Resources */,
+				88D4224F1DF2D76500BE0D0D /* Live.storyboard in Resources */,
+				88D4224D1DF2D74300BE0D0D /* Home.storyboard in Resources */,
+				88D422541DF2D7A200BE0D0D /* Profile.storyboard in Resources */,
+				88D422521DF2D78000BE0D0D /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +407,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88D422171DF1878400BE0D0D /* AppDelegate.swift in Sources */,
+				886D70A11E001E0C006E3F8B /* UIColor-Extension.swift in Sources */,
+				886D70991DFEC4FE006E3F8B /* PageTitleVIew.swift in Sources */,
+				88D422561DF2D85F00BE0D0D /* MainViewController.swift in Sources */,
+				886D709F1E001B45006E3F8B /* PageContentView.swift in Sources */,
+				88D4225E1DF2DEB400BE0D0D /* HomeViewController.swift in Sources */,
+				886D709B1DFEC6A0006E3F8B /* Common.swift in Sources */,
+				88D7A9E61DF43D9C003AD0A5 /* UIBarButton-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +455,7 @@
 				88D4221B1DF1878400BE0D0D /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		88D4221F1DF1878400BE0D0D /* LaunchScreen.storyboard */ = {
@@ -363,6 +464,24 @@
 				88D422201DF1878400BE0D0D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		88D4224B1DF2D74300BE0D0D /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D4224C1DF2D74300BE0D0D /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main;
+			sourceTree = "<group>";
+		};
+		88D422501DF2D78000BE0D0D /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D422511DF2D78000BE0D0D /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -466,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W9L4S6H6B9;
 				INFOPLIST_FILE = "高仿斗鱼TV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -481,6 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W9L4S6H6B9;
 				INFOPLIST_FILE = "高仿斗鱼TV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
